@@ -13,8 +13,6 @@ class ExtendedSelenium(Selenium):
 
     @keyword
     def firefox_install_addon(self, path, temporary=None):
-        # Usage: driver.install_addon('/path/to/firebug.xpi')
-        # ‘self’ refers to the “Webdriver” class
         # 'path' is absolute path to the addon that will be installed
         payload = {"path": path}
         if temporary:

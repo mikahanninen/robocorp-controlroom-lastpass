@@ -7,11 +7,6 @@ class ExtendedSelenium(Selenium):
         Selenium.__init__(self, *args, **kwargs)
 
     @keyword
-    def looking_at_element(self, locator):
-        element = self.get_webelement(locator)
-        self.logger.warn(dir(element))
-
-    @keyword
     def firefox_install_addon(self, path, temporary=None):
         # 'path' is absolute path to the addon that will be installed
         payload = {"path": path}

@@ -21,3 +21,8 @@ email sent by the LastPass.
 **A.** Chrome could not be used for this case, because Cloud container runs
 are run in the headless mode and there is an issue with extension
 installation on Chrome headless mode which could not be easily resolved.
+
+**Q.** Why the use of ExtendedSelenium.py ?
+
+**A.** This feature is not yet supported by the **RPA.Browser.Selenium** library
+of the rpaframework package, but it can be added [#issue 341](https://github.com/robocorp/rpaframework/issues/341)

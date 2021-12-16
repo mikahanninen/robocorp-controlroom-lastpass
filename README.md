@@ -1,6 +1,6 @@
 # LastPass Firefox extension in Robocorp Control Room
 
-<img src="images/pre_login.png" style="margin-bottom:20px; width:1200px;">
+<img src="images/pre_login.png" style="margin-bottom:20px;">
 
 ## Overview
 
@@ -28,3 +28,7 @@ installation on Chrome headless mode which could not be easily resolved.
 
 **A.** This feature is not yet supported by the **RPA.Browser.Selenium** library
 of the rpaframework package, but it can be added [#issue 341](https://github.com/robocorp/rpaframework/issues/341)
+
+## Result after installation and logging into extension
+
+<img src="images/logged_in.png" style="margin-bottom:20px;">

@@ -1,6 +1,6 @@
 # LastPass Firefox extension in Robocorp Control Room
 
-<img src="images/pre_login.png" style="margin-bottom:20px;height:50%;">
+<img src="images/pre_login.png" style="margin-bottom:20px;height:400px;">
 
 ## Overview
 
@@ -31,4 +31,4 @@ of the rpaframework package, but it can be added [#issue 341](https://github.com
 
 ## Result after installation and logging into extension
 
-<img src="images/logged_in.png" style="margin-bottom:20px;">
+<img src="images/logged_in.png" style="margin-bottom:20px;height: 400px;">

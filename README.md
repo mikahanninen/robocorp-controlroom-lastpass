@@ -1,6 +1,6 @@
 # LastPass Firefox extension in Robocorp Control Room
 
-<img src="images/pre_login.png" style="margin-bottom:20px;">
+<img src="images/pre_login.png" style="margin-bottom:20px;height:50%;">
 
 ## Overview
 
